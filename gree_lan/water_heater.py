@@ -163,11 +163,11 @@ class GreeWaterHeater(WaterHeaterEntity):
 
     @property
     def target_temperature_low(self):
-        return self.min_temp
+        return None
 
     @property
     def target_temperature_high(self):
-        return self.max_temp
+        return None
 
     @property
     def precision(self):
